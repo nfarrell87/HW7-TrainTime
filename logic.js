@@ -38,7 +38,7 @@ var config = {
         .val()
         .trim(),
       "hh:mm"
-    ).format("X");
+    ).format("hh:mm");
     var empRate = $("#rate-input")
       .val()
       .trim();
@@ -60,7 +60,7 @@ var config = {
     console.log(newEmp.start);
     console.log(newEmp.rate);
   
-    alert("Employee successfully added");
+    alert("Train successfully added");
   
     // Clears all of the text-boxes
     $("#employee-name-input").val("");
